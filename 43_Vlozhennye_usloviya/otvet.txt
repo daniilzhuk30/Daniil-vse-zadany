@@ -1,0 +1,11 @@
+Задание 43.
+8. Ответы: 1) Limited access 2) Limited access 3) Limited access 4) Blocked 5) Нет, не изменится.
+9. Ошибка: 1) Нет, разрешает все. 2) size = 100 или 0. 3) if (size >= 1 && size <= 50) 4) && нужен чтобы оба условия выполнялись.
+10. Сделал код (main_43.cpp).
+Тесты:
+1 1 1 1 0 -> Accepted
+2 1 1 0 0 -> Accepted
+3 1 0 1 0 -> Accepted
+1 0 1 1 0 -> Rejected
+3 1 1 1 1 -> Rejected
+Вывод: switch удобен для меню, if для сложных условий.
